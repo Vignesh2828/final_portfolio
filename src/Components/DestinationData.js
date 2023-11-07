@@ -7,6 +7,7 @@ class DestinationData extends Component {
         <div className="des-text">
           <h2>{this.props.heading}</h2>
           <p>{this.props.text}</p>
+          <b><p>{this.props.keys}</p></b>
         </div>
 
         <div className="image">

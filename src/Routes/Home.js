@@ -1,4 +1,3 @@
-import Fiveg from "../Components/5g";
 import Destination from "../Components/Destination";
 import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
@@ -17,9 +16,7 @@ function Home() {
         ptext="Start Explore My Page"
       />
       <Destination />
-      <Fiveg />
       <Trip />
-
       <Footer />
     </>
   );
