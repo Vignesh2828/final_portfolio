@@ -1,12 +1,11 @@
+import React from 'react';
 import "./FooterStyles.css";
+import resumePDF from '../Assets/Resume.jpg';
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
-        <div>
-          <h1>vicky</h1>
-        </div>
         <div>
           <a href="/">
             <i className="fa-brands fa-twitter-square"></i>
@@ -25,32 +24,15 @@ const Footer = () => {
 
       <div className="bottom">
         <div>
-          <h4>Project</h4>
+          <h4>Resume</h4>
+          <a href={resumePDF} download="Vigneshwaran.jpg">Download Resume</a>
           <a href="/">Changelog</a>
           <a href="/">Status</a>
           <a href="/">License</a>
           <a href="/">All versions</a>
         </div>
         <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All versions</a>
-        </div>
-        <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All versions</a>
-        </div>
-        <div>
-          <h4>Project</h4>
-          <a href="/">Changelog</a>
-          <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All versions</a>
+          <h3>Created By Vigneshwaran</h3>
         </div>
       </div>
     </div>
