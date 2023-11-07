@@ -38,8 +38,8 @@ const Contact = () => {
         <textarea name="message" />
         <input type="submit" value="Send" className="submit-btn" />
       </form>
-      <p>Email: mrtnvicky2020@gmail.com</p>
-      <p>Mobile: +91 80728 73118</p>
+      <p className="email">Email: mrtnvicky2020@gmail.com</p>
+      <p className="email">Mobile: +91 80728 73118</p>
     </div>
   );
 };
