@@ -6,7 +6,7 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <BrowserRouter basename="/vicky-portfolio">
+  <BrowserRouter basename="/final_portfolio">
     <App />
   </BrowserRouter>
 );
