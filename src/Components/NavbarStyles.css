@@ -14,11 +14,18 @@
   transform: translate(-50%);
   z-index: 9999;
 }
+
 .navbar-logo {
   color: #222;
   font-size: 2rem;
   cursor: pointer;
+  transition: transform 0.2s; /* Add a transition effect for the transform property */
 }
+
+.navbar-logo:hover {
+  transform: scale(1.1); /* Scale up the element when hovered */
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
