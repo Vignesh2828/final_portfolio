@@ -1,0 +1,22 @@
+/* skill_page.css */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .py-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .py-png {
+    max-width: 100px;
+    height: 100x;
+    width: 100px;
+  }
+  
+  /* Add any additional styling you need */
+  

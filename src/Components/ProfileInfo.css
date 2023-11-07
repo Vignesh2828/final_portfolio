@@ -1,0 +1,40 @@
+/* ProfileInfo.css */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Change to 'flex-start' to align content to the left */
+}
+
+.profile-pic {
+  margin-left: 50px;
+  border-radius: 0% 20% 0% 20% ; /* Custom border-radius */
+  overflow: hidden;
+}
+
+
+.profile-pic img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.profile-details {
+  text-align: left; /* Change to 'left' to align text to the left */
+}
+
+.profile-details {
+  text-align: left; /* Keep the text aligned to the left */
+  margin-left: 100px; /* Add some margin to move the details to the right */
+  max-width: 55%; /* Set a maximum width to prevent text from overflowing the window */
+  word-wrap: break-word; /* Wrap long words to the next line if needed */
+  font-family: 'Albert Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: smaller;
+}
+.profile-details p {
+  margin-bottom: 20px; /* Adjust the margin to control the spacing */
+}
+
+
+/* Add more styling as needed */
