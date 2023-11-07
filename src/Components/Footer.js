@@ -28,8 +28,6 @@ const Footer = () => {
           <a href={resumePDF} download="Vigneshwaran.jpg">Download Resume</a>
           <a href="/">Changelog</a>
           <a href="/">Status</a>
-          <a href="/">License</a>
-          <a href="/">All versions</a>
         </div>
         <div>
           <h3>Created By Vigneshwaran</h3>
