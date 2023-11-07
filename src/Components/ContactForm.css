@@ -49,10 +49,14 @@
 
 .email {
   align-items: center;
-  font-size: 20px;
-  font-family: "cursive", cursive; /* Use a cursive font for a stylish look */
-  color: rgba(249, 105, 14, 0.8); /* Choose a stylish text color */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow for style */
+  font-size: 24px; /* Larger font size */
+  font-family: 'Playfair Display', serif; /* Use a stylish serif font */
+  color: #e74c3c; /* Stylish text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+  letter-spacing: 1px; /* Add letter spacing for a stylish effect */
+  text-transform: none; /* Uppercase text for emphasis */
+  font-weight: 600; /* Bolder text */
+  line-height: 1.4; /* Adjust line height for better readability */
 }
 
 

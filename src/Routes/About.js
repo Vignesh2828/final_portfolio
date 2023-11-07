@@ -6,6 +6,7 @@ import Navbar from "../Components/Navbar";
 import Trip from "../Components/Trip";
 import ProfileInfo from '../Components/Portfolio_info';
 import home_image from '../Assets/about_home.jpg';
+import Timeline from "../Components/timeline";
 
 function About() {
   return (
@@ -25,6 +26,7 @@ function About() {
         }
       />
       <ProfileInfo />
+      <Timeline />
       <Footer />
     </>
   );
