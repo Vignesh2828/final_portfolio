@@ -14,6 +14,14 @@ function Home() {
         heroImg= {home_image}
         title="Welcome To My Portfolio"
         ptext="Start Explore My Page"
+        resume="Download Resume"
+        stext={
+          <>
+            <i className="fa-solid fa-angles-down fa-bounce"></i>
+            <i className="fa-solid fa-angles-down fa-bounce"></i>
+            <i className="fa-solid fa-angles-down fa-bounce"></i> {/* Add the new icon here */}
+          </>
+        }
       />
       <Destination />
       <Trip />

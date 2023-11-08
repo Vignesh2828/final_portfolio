@@ -91,3 +91,8 @@ img {
     font-size: 1rem;
   }
 }
+
+.resume{
+  text-decoration: none;
+  color: black;
+}
