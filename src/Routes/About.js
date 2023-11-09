@@ -17,6 +17,7 @@ function About() {
         heroImg={home_image}
         title="Lets know about me"
         ptext="Scroll the page down"
+        resume="Download Resume"
         stext={
           <>
             <i className="fa-solid fa-angles-down fa-bounce"></i>

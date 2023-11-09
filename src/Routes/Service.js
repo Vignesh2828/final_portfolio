@@ -12,6 +12,7 @@ function Service() {
         heroImg={skill_page}
         title="I Listed My Some Skills"
         ptext="Scroll the page down"
+        resume="Download Resume"
         stext={
           <>
             <i className="fa-solid fa-angles-down fa-bounce"></i>
