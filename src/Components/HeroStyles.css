@@ -75,7 +75,7 @@ img {
   color: #222;
 }
 
-@media screen and (max-width: 555px) {
+@media(max-width: 555px) {
   .hero-text {
     padding: 10px 5px;
   }
@@ -89,6 +89,17 @@ img {
     padding: 0.6rem 1.1rem;
     border-radius: 6px;
     font-size: 1rem;
+  }
+
+  /* Show the download resume button on mobile */
+  .resume {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
   }
 }
 

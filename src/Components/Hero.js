@@ -14,9 +14,6 @@ function Hero(props) {
           <br></br>
           <br></br>
           <p>{props.stext}</p>
-          <a href={props.url} className={props.btnClass}>
-            {props.buttonText}
-          </a>
         </div>
       </div>
     </>
